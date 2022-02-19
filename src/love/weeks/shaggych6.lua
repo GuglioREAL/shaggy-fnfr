@@ -44,7 +44,7 @@ return {
 		cam.sizeX, cam.sizeY = 0.6, 0.6
 		camScale.x, camScale.y = 0.6, 0.6
 
-		enemyIcon:animate("skid and pump", false)
+		enemyIcon:animate("phantom shaggy", false)
 
 		self:load()
 	end,
@@ -73,12 +73,12 @@ return {
         weeks9k:update(dt)
 
 		if health >= 80 then
-			if enemyIcon:getAnimName() == "skid and pump" then
-				enemyIcon:animate("skid and pump losing", false)
+			if enemyIcon:getAnimName() == "phantom shaggy" then
+				enemyIcon:animate("phantom shaggy losing", false)
 			end
 		else
-			if enemyIcon:getAnimName() == "skid and pump losing" then
-				enemyIcon:animate("skid and pump", false)
+			if enemyIcon:getAnimName() == "phantom shaggy losing" then
+				enemyIcon:animate("phantom shaggy", false)
 			end
 		end
 

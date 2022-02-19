@@ -36,7 +36,7 @@ return {
 		enemy.x, enemy.y = -725, 120
 		boyfriend.x, boyfriend.y = 30, 240
 
-		enemyIcon:animate("skid and pump", false)
+		enemyIcon:animate("shaggy", false)
 
 		self:load()
 	end,
@@ -108,12 +108,12 @@ return {
         end
 
 		if health >= 80 then
-			if enemyIcon:getAnimName() == "skid and pump" then
-				enemyIcon:animate("skid and pump losing", false)
+			if enemyIcon:getAnimName() == "shaggy" then
+				enemyIcon:animate("shaggy losing", false)
 			end
 		else
-			if enemyIcon:getAnimName() == "skid and pump losing" then
-				enemyIcon:animate("skid and pump", false)
+			if enemyIcon:getAnimName() == "shaggy losing" then
+				enemyIcon:animate("shaggy", false)
 			end
 		end
 

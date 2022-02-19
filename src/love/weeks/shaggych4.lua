@@ -42,7 +42,7 @@ return {
 		enemy.x, enemy.y = -725, -550
 		boyfriend.x, boyfriend.y = 30, -390
 
-		enemyIcon:animate("skid and pump", false)
+		enemyIcon:animate("red shaggy", false)
 
 		self:load()
 	end,
@@ -112,12 +112,12 @@ return {
         end
 
 		if health >= 80 then
-			if enemyIcon:getAnimName() == "skid and pump" then
-				enemyIcon:animate("skid and pump losing", false)
+			if enemyIcon:getAnimName() == "red haggy" then
+				enemyIcon:animate("red shaggy losing", false)
 			end
 		else
-			if enemyIcon:getAnimName() == "skid and pump losing" then
-				enemyIcon:animate("skid and pump", false)
+			if enemyIcon:getAnimName() == "red shaggy losing" then
+				enemyIcon:animate("red shaggy", false)
 			end
 		end
 		if not (countingDown or graphics.isFading()) and not (inst:isPlaying() and voices:isPlaying()) then

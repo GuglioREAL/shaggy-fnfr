@@ -18,9 +18,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ------------------------------------------------------------------------------]]
 
 function love.conf(t)
-	t.identity = "funkin-vasion-rewritten"
+	t.identity = "funkin-shaggy-rewritten"
 	t.version = "11.3"
 	--t.console = true
 
-	t.window.title = "Friday Night Funkin' Vasion Rewritten v1.1.0"
+	t.window.title = "Friday Night Funkin' Rewritten: Vs. Shaggy v1.1.0"
 end
