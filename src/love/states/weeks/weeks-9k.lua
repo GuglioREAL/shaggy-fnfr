@@ -422,7 +422,7 @@ return {
 							table.insert(boyfriendNotes[id], sprite())
 							boyfriendNotes[id][c].x = x
 							boyfriendNotes[id][c].y = -400 + noteTime * 0.6 * speed
-							enemyNotes[id][c].sizeX, enemyNotes[id][c].sizeY = 0.75, 0.75
+							boyfriendNotes[id][c].sizeX, boyfriendNotes[id][c].sizeY = 0.75, 0.75
 
 							boyfriendNotes[id][c]:animate("on", false)
 
