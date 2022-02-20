@@ -31,7 +31,7 @@ return {
 		theSky = graphics.newImage(love.graphics.newImage(graphics.imagePath("shaggy/outside/sky")))
         ground = graphics.newImage(love.graphics.newImage(graphics.imagePath("shaggy/outside/ground")))
         middleMount = graphics.newImage(love.graphics.newImage(graphics.imagePath("shaggy/outside/middlemount")))
-        backMount = graphics.newImage(love.graphics.newImage(graphics.imagePath("shaggy/outside/backMount")))
+        backMount = graphics.newImage(love.graphics.newImage(graphics.imagePath("shaggy/outside/backmount")))
         clouds = graphics.newImage(love.graphics.newImage(graphics.imagePath("shaggy/outside/clouds")))
         backMount.y = -300
         middleMount.y = -350

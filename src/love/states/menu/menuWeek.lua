@@ -214,7 +214,7 @@ return {
 
 			elseif input:pressed("right") then
 				audio.playSound(selectSound)
-				if input:getActiveDevice() == "joy" then
+				if input:getActiveDevice() ~= "joy" then
 					if songDifficulty ~= 3 then
 						songDifficulty = songDifficulty + 1
 					else
